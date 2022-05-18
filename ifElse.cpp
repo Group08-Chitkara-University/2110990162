@@ -41,7 +41,7 @@ int main(){
     cout<<"Enter a number: "<<endl;
     cin>>number;
 
-    for ( i = 2; i < number; i++)
+    for ( i = 2; i <= number; i++)
     {
         if(number%i==0){
             cout<<"Not a prime number"<<endl;
